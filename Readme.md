@@ -1,4 +1,4 @@
-#Groupchat
+# Groupchat
 
 This program includes 3 files, a server, a client and a file that enables to send a message.
 
