@@ -9,7 +9,7 @@ Initialize the server first
 ./chat_server_mq \<port number\>
 
 initialize the client services that will run in the background
-./chat_client_mq <ip> <server port number>
+./chat_client_mq \<ip\> \<server port number\>
 
 To send a message run the send.out file and pass the message as a argument
-./send.out <message to send> 
+./send.out \<message to send\> 
