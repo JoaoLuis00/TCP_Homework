@@ -16,7 +16,7 @@ client:
 		
 #Compile send (will send via Posix Message Queue to client service)
 send.out: 
-	$(CC) send.out.c -o send.out-pthread
+	$(CC) send.c -o send.out-pthread
 
 clean: 
 	rm -f  *.o send.out chat_client_mq chat_server_mq
