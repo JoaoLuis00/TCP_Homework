@@ -6,7 +6,7 @@ This program includes 3 files, a server, a client and a file that enables to sen
 Steps to run the different files:
 
 Initialize the server first
-./chat_server_mq <port number>
+./chat_server_mq \<port number\>
 
 initialize the client services that will run in the background
 ./chat_client_mq <ip> <server port number>
